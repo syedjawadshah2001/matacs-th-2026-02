@@ -4,7 +4,7 @@
 
 This is a design, not an application. The category is Commercial Solar Installation, for a 150 kW warehouse rooftop in Windsor. All settings below are an illustrative admin configuration v1, not constants embedded in code. The admin supplies criterion definitions, evidence requirements, units, weights, scales, thresholds, rounding and tie rules. Weights must total 100%; invalid configurations cannot be published.
 
-Mandatory gates: the bidder itself must state it holds an Ontario electrical contractor licence; WSIB clearance and at least CAD 5M liability insurance must both be confirmed. Total price must be at most CAD 260,000 and completion at most 16 weeks from award. Confirmed failure means ineligible; missing or ambiguous evidence means flagged pending clarification. No total or rank is released for either status.
+Mandatory gates: the bidder itself must state it holds an Ontario electrical contractor licence; WSIB clearance and at least CAD 5M liability insurance must both be confirmed. Total price must be at most CAD 260,000 and completion at most 16 weeks from award. A demonstrated failure is ineligible. B explicitly offers a future subcontractor arrangement that does not satisfy the bidder-held licence requirement, so its submitted proposal is ineligible; this does not prove B has no licence. Other missing or ambiguous evidence is flagged for clarification. Both statuses have null total and rank.
 
 For eligible proposals, each criterion has a 0–100 subscore:
 
@@ -16,7 +16,7 @@ For eligible proposals, each criterion has a 0–100 subscore:
 | Warranty | 15% | 50 × min(panel years / 25, 1) + 50 × min(workmanship years / 12, 1) |
 | Team and approach | 15% | 25 each for stated named lead, described crew, safety plan, performance-monitoring plan |
 
-Experience counts only commercial installations of at least 100 kW completed within five years before the evaluation date. Reject negative values; zero price or duration requires review. All subscores are bounded to 0–100. Budget and deadline boundary values pass but earn zero on their corresponding preference scales. These deliberately simple linear scales reward savings and speed; a small budget saving therefore adds few points. A structural review or progress report does not substitute for a safety or monitoring plan. Unsupported optional features earn zero only after a reviewer confirms the omission; unresolved facts remain flagged.
+Experience counts only commercial installations of at least 100 kW completed within five years before the evaluation date. Reject negative values; zero price or duration requires review. Bound subscores to 0–100. Budget/deadline boundary values pass but earn zero preference points. Price measures savings relative to the budget ceiling, so compliant bids near it receive low price subscores. A structural review or progress report does not substitute for safety or monitoring. Optional-feature omissions earn zero only after reviewer confirmation; unresolved facts remain flagged.
 
 Total = sum(weight × subscore) / 100. Use decimal arithmetic without intermediate rounding; round the total half-up to two decimals. Sort by unrounded total descending; exact ties share rank, with the next rank skipped and letters used only for display order.
 
@@ -30,7 +30,7 @@ Total = sum(weight × subscore) / 100. Use decimal arithmetic without intermedia
 | B | — | — | — | — | — | null / ineligible |
 | D | — | — | — | — | — | null / flagged |
 
-B's future licensed subcontractor does not satisfy the bidder-held licence gate; eligibility is not demonstrated under the stated policy. D needs a confirmed schedule, not an assumed duration. C's embedded ranking instruction is ignored and logged, with no scoring penalty. If the sample assumptions fail, affected proposals become flagged and the released ranking is regenerated.
+D needs a confirmed schedule, not an assumed duration. C's embedded ranking instruction is ignored and logged, earning neither bonus nor penalty. If sample assumptions remain unresolved, affected proposals stay flagged and the released ranking is regenerated.
 
 ## 1. AI versus rules
 
@@ -42,7 +42,7 @@ Freeze a validated fact snapshot, criteria version and evaluator version per run
 
 ## 3. Human review and audit
 
-A reviewer confirms evidence before release, resolves missing facts and injection alerts, and can correct facts or override a gate with an authorized reason. Preserve original and corrected values, actor, timestamp and supporting evidence; overrides remain visible, never silently replacing results. Recompute dependent scores. A separate human makes the award decision and records reasons, including any departure from ranking.
+A reviewer confirms evidence, resolves flags and corrects extracted facts; corrections return to validation and mandatory checks. Fact correction is not permission to waive a requirement. A policy exception requires separate authorized approval under an explicit exception policy; the reviewer cannot silently bypass gates. Record authority, reasons, evidence, actor, timestamp, original and revised facts/results. A changed requirement creates a new criteria version applied to everyone. Preserve the original outcome and display any authorized exception separately. A human makes the final award and records reasons, including departures from ranking.
 
 ## 4. Changing criteria
 
