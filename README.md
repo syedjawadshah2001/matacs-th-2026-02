@@ -19,5 +19,5 @@ A design for AI-assisted Commercial Solar Installation proposal triage. No appli
 
 ## AI use
 
-ChatGPT/Codex helped create and review the design, prompts, sample calculations and process diagram, including the local revisions. **[PENDING MY REVIEW AND CONFIRMATION]** Proposed correction example: "I identified and asked Codex to fix inconsistent wording: B's submitted subcontractor arrangement fails the bidder-held licence requirement, while other missing or ambiguous evidence needs clarification; the distinction matters because those cases require different statuses." This proposed example is not yet a claim that I have reviewed or accepted the correction.
+ChatGPT/Codex helped draft and review the design, prompts, calculations and diagram. During AI-assisted review, inconsistent wording was identified around proposal B’s eligibility. I reviewed and accepted the correction: B’s proposed subcontractor arrangement does not satisfy the bidder-held licence requirement, while other missing or ambiguous information requires clarification.
 
