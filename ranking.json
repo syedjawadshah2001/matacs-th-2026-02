@@ -1,0 +1,7 @@
+[
+  {"proposal":"A","rank":1,"status":"ranked","score":62.62,"reason":"Conditional on validated five-year experience: strongest experience and complete team evidence produce the highest v1 total."},
+  {"proposal":"E","rank":2,"status":"ranked","score":50.50,"reason":"Conditional on validated five-year experience: complete team evidence and strongest warranty, but fewer projects and weaker price/timeline scores than A."},
+  {"proposal":"C","rank":3,"status":"ranked","score":42.66,"reason":"Conditional on validated five-year experience and human clearance of logged injection: fewer team features and slower schedule lower the total; injection earns no penalty or bonus."},
+  {"proposal":"B","rank":null,"status":"ineligible","score":null,"reason":"Bidder-held Ontario electrical contractor licence is not demonstrated; a future licensed subcontractor does not satisfy the mandatory requirement."},
+  {"proposal":"D","rank":null,"status":"flagged","score":null,"reason":"Completion timeline is unconfirmed; obtain clarification and validate the 16-week gate before scoring or ranking."}
+]

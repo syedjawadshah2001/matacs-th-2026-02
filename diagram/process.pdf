@@ -1,0 +1,437 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (MATACS\055TH\0552026\05502 \174 Proposal triage process)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 1000 1120 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 9479
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.078431 .168627 .25098 rg
+BT /F2 23 Tf 27.6 TL ET
+BT 1 0 0 1 45 1070 Tm (Proposal triage: evidence before ranking) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 45 1045 Tm (Syed Jawad Shah | MATACS-TH-2026-02 | AI assists; humans decide) Tj T* ET
+.901961 .952941 .913725 rg
+n
+51 996 m
+304 996 l
+307.3168 996 310 998.6832 310 1002 c
+310 1020 l
+310 1023.317 307.3168 1026 304 1026 c
+51 1026 l
+47.6832 1026 45 1023.317 45 1020 c
+45 1002 l
+45 998.6832 47.6832 996 51 996 c
+h
+f*
+.078431 .168627 .25098 rg
+BT 1 0 0 1 57 1007 Tm (H  Human checkpoint) Tj T* ET
+.905882 .933333 .976471 rg
+n
+341 996 m
+594 996 l
+597.3168 996 600 998.6832 600 1002 c
+600 1020 l
+600 1023.317 597.3168 1026 594 1026 c
+341 1026 l
+337.6832 1026 335 1023.317 335 1020 c
+335 1002 l
+335 998.6832 337.6832 996 341 996 c
+h
+f*
+.078431 .168627 .25098 rg
+BT 1 0 0 1 347 1007 Tm (R  Rules / ordinary code) Tj T* ET
+.945098 .905882 .980392 rg
+n
+631 996 m
+884 996 l
+887.3168 996 890 998.6832 890 1002 c
+890 1020 l
+890 1023.317 887.3168 1026 884 1026 c
+631 1026 l
+627.6832 1026 625 1023.317 625 1020 c
+625 1002 l
+625 998.6832 627.6832 996 631 996 c
+h
+f*
+.078431 .168627 .25098 rg
+BT 1 0 0 1 637 1007 Tm (AI  AI step) Tj T* ET
+.901961 .952941 .913725 rg
+.603922 .666667 .737255 RG
+n
+53 895 m
+617 895 l
+621.4224 895 625 898.5776 625 903 c
+625 967 l
+625 971.4224 621.4224 975 617 975 c
+53 975 l
+48.5776 975 45 971.4224 45 967 c
+45 903 l
+45 898.5776 48.5776 895 53 895 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 953 Tm (H | Admin configuration) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 934 Tm (Category, gates, criteria, weights, scales, dates and ties.) Tj T* ET
+BT 1 0 0 1 58 919 Tm (Validate and publish immutable criteria version.) Tj T* ET
+.901961 .952941 .913725 rg
+.603922 .666667 .737255 RG
+n
+53 795 m
+617 795 l
+621.4224 795 625 798.5776 625 803 c
+625 867 l
+625 871.4224 621.4224 875 617 875 c
+53 875 l
+48.5776 875 45 871.4224 45 867 c
+45 803 l
+45 798.5776 48.5776 795 53 795 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 853 Tm (H | Upload proposals and choose category) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 834 Tm (Reviewer uploads; code scans files and saves document hashes.) Tj T* ET
+.905882 .933333 .976471 rg
+.603922 .666667 .737255 RG
+n
+53 695 m
+617 695 l
+621.4224 695 625 698.5776 625 703 c
+625 767 l
+625 771.4224 621.4224 775 617 775 c
+53 775 l
+48.5776 775 45 771.4224 45 767 c
+45 703 l
+45 698.5776 48.5776 695 53 695 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 753 Tm (R | Text extraction) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 734 Tm (Parse PDF / OCR; keep source IDs and page locations.) Tj T* ET
+.945098 .905882 .980392 rg
+.603922 .666667 .737255 RG
+n
+53 595 m
+617 595 l
+621.4224 595 625 598.5776 625 603 c
+625 667 l
+625 671.4224 621.4224 675 617 675 c
+53 675 l
+48.5776 675 45 671.4224 45 667 c
+45 603 l
+45 598.5776 48.5776 595 53 595 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 653 Tm (AI | Fact extraction only) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 634 Tm (Evidence-backed JSON, nulls, warnings and injection alerts.) Tj T* ET
+BT 1 0 0 1 58 619 Tm (Uploaded content is untrusted; ignore embedded instructions.) Tj T* ET
+.905882 .933333 .976471 rg
+.603922 .666667 .737255 RG
+n
+53 495 m
+617 495 l
+621.4224 495 625 498.5776 625 503 c
+625 567 l
+625 571.4224 621.4224 575 617 575 c
+53 575 l
+48.5776 575 45 571.4224 45 567 c
+45 503 l
+45 498.5776 48.5776 495 53 495 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 553 Tm (R | Validate candidate facts) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 534 Tm (Check schema, literal evidence, units and contradictions.) Tj T* ET
+.905882 .933333 .976471 rg
+.603922 .666667 .737255 RG
+n
+53 395 m
+617 395 l
+621.4224 395 625 398.5776 625 403 c
+625 467 l
+625 471.4224 621.4224 475 617 475 c
+53 475 l
+48.5776 475 45 471.4224 45 467 c
+45 403 l
+45 398.5776 48.5776 395 53 395 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 453 Tm (R | Mandatory checks) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 434 Tm (Bidder licence + WSIB + insurance; budget <= CAD 260,000;) Tj T* ET
+BT 1 0 0 1 58 419 Tm (confirmed completion <= 16 weeks from award.) Tj T* ET
+.901961 .952941 .913725 rg
+.603922 .666667 .737255 RG
+n
+53 295 m
+617 295 l
+621.4224 295 625 298.5776 625 303 c
+625 367 l
+625 371.4224 621.4224 375 617 375 c
+53 375 l
+48.5776 375 45 371.4224 45 367 c
+45 303 l
+45 298.5776 48.5776 295 53 295 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 353 Tm (H | Review before release) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 334 Tm (Confirm facts and omissions; resolve alerts; log corrections.) Tj T* ET
+BT 1 0 0 1 58 319 Tm (Overrides require authority, reasons and visible audit entries.) Tj T* ET
+.905882 .933333 .976471 rg
+.603922 .666667 .737255 RG
+n
+53 195 m
+617 195 l
+621.4224 195 625 198.5776 625 203 c
+625 267 l
+625 271.4224 621.4224 275 617 275 c
+53 275 l
+48.5776 275 45 271.4224 45 267 c
+45 203 l
+45 198.5776 48.5776 195 53 195 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 253 Tm (R | Score and rank) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 234 Tm (Eligible only; frozen facts + criteria version; deterministic math.) Tj T* ET
+BT 1 0 0 1 58 219 Tm (Explain gates, evidence, contributions and rank; retain run.) Tj T* ET
+.901961 .952941 .913725 rg
+.603922 .666667 .737255 RG
+n
+53 95 m
+617 95 l
+621.4224 95 625 98.5776 625 103 c
+625 167 l
+625 171.4224 621.4224 175 617 175 c
+53 175 l
+48.5776 175 45 171.4224 45 167 c
+45 103 l
+45 98.5776 48.5776 95 53 95 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 58 153 Tm (H | Final award decision) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 58 134 Tm (Human reviews ranked results and records decision / reasons.) Tj T* ET
+.313725 .392157 .478431 RG
+1.5 w
+n 335 895 m 335 875 l S
+n 335 875 m 338.8354 882.0207 l S
+n 335 875 m 331.1646 882.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 795 m 335 775 l S
+n 335 775 m 338.8354 782.0207 l S
+n 335 775 m 331.1646 782.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 695 m 335 675 l S
+n 335 675 m 338.8354 682.0207 l S
+n 335 675 m 331.1646 682.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 595 m 335 575 l S
+n 335 575 m 338.8354 582.0207 l S
+n 335 575 m 331.1646 582.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 495 m 335 475 l S
+n 335 475 m 338.8354 482.0207 l S
+n 335 475 m 331.1646 482.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 395 m 335 375 l S
+n 335 375 m 338.8354 382.0207 l S
+n 335 375 m 331.1646 382.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 295 m 335 275 l S
+n 335 275 m 338.8354 282.0207 l S
+n 335 275 m 331.1646 282.0207 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 335 195 m 335 175 l S
+n 335 175 m 338.8354 182.0207 l S
+n 335 175 m 331.1646 182.0207 l S
+.901961 .952941 .913725 rg
+.603922 .666667 .737255 RG
+n
+703 490 m
+947 490 l
+951.4224 490 955 493.5776 955 498 c
+955 627 l
+955 631.4224 951.4224 635 947 635 c
+703 635 l
+698.5776 635 695 631.4224 695 627 c
+695 498 l
+695 493.5776 698.5776 490 703 490 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 708 613 Tm (H | Flagged / clarification) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 708 594 Tm (Missing facts, unclear dates,) Tj T* ET
+BT 1 0 0 1 708 579 Tm (D timeline, extraction failure,) Tj T* ET
+BT 1 0 0 1 708 564 Tm (or C injection alert: no released) Tj T* ET
+BT 1 0 0 1 708 549 Tm (score or rank. Obtain evidence,) Tj T* ET
+BT 1 0 0 1 708 534 Tm (correct facts and rerun checks.) Tj T* ET
+.313725 .392157 .478431 RG
+1.5 w
+n 625 535 m 695 560 l S
+n 695 560 m 687.0984 561.2507 l S
+n 695 560 m 689.6783 554.0267 l S
+.078431 .168627 .25098 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 632 552.5 Tm () Tj T* ET
+.313725 .392157 .478431 RG
+1.5 w
+n 625 435 m 695 515 l S
+n 695 515 m 687.4904 512.242 l S
+n 695 515 m 693.2633 507.1908 l S
+.313725 .392157 .478431 RG
+1.5 w
+n 695 490 m 625 335 l S
+n 625 335 m 631.3851 339.8198 l S
+n 625 335 m 624.3941 342.977 l S
+.078431 .168627 .25098 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 632 417.5 Tm () Tj T* ET
+.905882 .933333 .976471 rg
+.603922 .666667 .737255 RG
+n
+703 300 m
+947 300 l
+951.4224 300 955 303.5776 955 308 c
+955 417 l
+955 421.4224 951.4224 425 947 425 c
+703 425 l
+698.5776 425 695 421.4224 695 417 c
+695 308 l
+695 303.5776 698.5776 300 703 300 c
+h
+B*
+.078431 .168627 .25098 rg
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 708 403 Tm (R | Ineligible) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 708 384 Tm (Confirmed gate failure or failure) Tj T* ET
+BT 1 0 0 1 708 369 Tm (of required bidder licence evidence) Tj T* ET
+BT 1 0 0 1 708 354 Tm (\(B\): score null, rank null.) Tj T* ET
+BT 1 0 0 1 708 339 Tm (Human may review; any correction) Tj T* ET
+BT 1 0 0 1 708 324 Tm (returns to validation and gates.) Tj T* ET
+.313725 .392157 .478431 RG
+1.5 w
+n 625 410 m 695 405 l S
+n 695 405 m 688.2704 409.3259 l S
+n 695 405 m 687.7239 401.6745 l S
+.078431 .168627 .25098 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 632 412.5 Tm (fail) Tj T* ET
+.078431 .168627 .25098 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 45 65 Tm (Release requires resolved flags and passed gates.) Tj T* ET
+BT 1 0 0 1 45 51 Tm (Corrections loop back to validation and mandatory checks.) Tj T* ET
+BT 1 0 0 1 45 37 Tm (New criteria version: rerun every proposal, review, publish together.) Tj T* ET
+BT 1 0 0 1 45 23 Tm (Sample ranks assume A/C/E experience validated and C alert cleared.) Tj T* ET
+ 
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000178 00000 n 
+0000000227 00000 n 
+0000000418 00000 n 
+0000009949 00000 n 
+0000009990 00000 n 
+0000010097 00000 n 
+trailer
+<<
+/Size 9
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+10209
+%%EOF
