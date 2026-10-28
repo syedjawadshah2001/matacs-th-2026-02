@@ -1,7 +1,7 @@
 [
   {"proposal":"A","rank":1,"status":"ranked","score":62.62,"reason":"Assuming its five-year project count is confirmed, A scores highest through its experience and all four team features."},
   {"proposal":"E","rank":2,"status":"ranked","score":50.50,"reason":"Assuming its five-year project count is confirmed, E has full team points and the best warranty score, but fewer projects and lower price/timeline scores than A."},
-  {"proposal":"C","rank":3,"status":"ranked","score":42.66,"reason":"Assuming its five-year count is confirmed and a person clears the logged instruction attack, C scores lower for team features, price and timeline; the attack earns no bonus or penalty."},
+  {"proposal":"C","rank":null,"status":"flagged","score":42.66,"reason":"Provisional score pending human clearance of the embedded instruction and validation of the assumed five-year count and facts; the instruction earns no bonus or penalty."},
   {"proposal":"B","rank":null,"status":"ineligible","score":null,"reason":"B's submitted future subcontractor arrangement does not meet the bidder-held licence requirement; this does not mean B definitely has no licence."},
   {"proposal":"D","rank":null,"status":"flagged","score":null,"reason":"D has no confirmed completion time. Ask for a schedule and check the 16-week deadline before scoring or ranking."}
 ]
